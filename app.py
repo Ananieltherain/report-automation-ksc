@@ -48,8 +48,8 @@ except ImportError:
 # KONFIGURASI HALAMAN
 # ──────────────────────────────────────────────────────────────
 st.set_page_config(
-    page_title="LHS Generator KSC",
-    page_icon="⚡",
+    page_title="LHS-KSC",
+    page_icon="✨",
     layout="centered",
     initial_sidebar_state="collapsed",
 )
@@ -88,7 +88,7 @@ st.markdown("""
 </style>
 """, unsafe_allow_html=True)
 
-st.title("⚡ LHS Generator")
+st.title("Laporan Hasil Survey")
 st.caption("PT. Karya Solusi Cemerlang — Web Mobile-Friendly")
 
 # ──────────────────────────────────────────────────────────────
