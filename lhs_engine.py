@@ -46,7 +46,7 @@ NS_MC = "http://schemas.openxmlformats.org/markup-compatibility/2006"
 import pytesseract
 
 # Sesuaikan jalur ini dengan lokasi instalasi Tesseract Anda
-pytesseract.pytesseract.tesseract_cmd = r'C:\Program Files\Tesseract-OCR\tesseract.exe'
+# pytesseract.pytesseract.tesseract_cmd = r'C:\Program Files\Tesseract-OCR\tesseract.exe'
 
 # Sekarang Anda bisa menggunakannya untuk OCR
 # teks = pytesseract.image_to_string('gambar.png')
