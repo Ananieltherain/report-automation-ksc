@@ -2,6 +2,7 @@ import streamlit as st
 import json
 import tempfile
 import os
+import platform
 import pytesseract
 
 # Cek apakah aplikasi berjalan di Windows (lokal) atau Linux (Streamlit Cloud)
