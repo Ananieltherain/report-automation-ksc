@@ -6,15 +6,15 @@ import platform
 import pytesseract
 
 # Cek apakah aplikasi berjalan di Windows (lokal) atau Linux (Streamlit Cloud)
-if platform.system() == "Windows":
-    # Sesuaikan dengan path lokal laptop lu
-    pytesseract.pytesseract.tesseract_cmd = (
-        r"C:\Program Files\Tesseract-OCR\tesseract.exe"
-    )
-else:
-    # Di Linux / Streamlit Cloud, Tesseract otomatis masuk ke PATH bawaan sistem
-    # Jadi kita tidak perlu setting tesseract_cmd secara manual.
-    pass
+# if platform.system() == "Windows":
+#     # Sesuaikan dengan path lokal laptop lu
+#     pytesseract.pytesseract.tesseract_cmd = (
+#         r"C:\Program Files\Tesseract-OCR\tesseract.exe"
+#     )
+# else:
+#     # Di Linux / Streamlit Cloud, Tesseract otomatis masuk ke PATH bawaan sistem
+#     # Jadi kita tidak perlu setting tesseract_cmd secara manual.
+#     pass
 
 # Sesuaikan jalur ini dengan lokasi instalasi Tesseract Anda
 # pytesseract.pytesseract.tesseract_cmd = r'C:\Program Files\Tesseract-OCR\tesseract.exe'
