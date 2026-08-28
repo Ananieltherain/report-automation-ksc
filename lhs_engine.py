@@ -57,8 +57,7 @@ import pytesseract
 
 DAFTAR_ASURANSI = [
     "PT. SOMPO INSURANCE INDONESIA",
-    "PT. ZURICH INSURANCE",
-    "PT. TOTAL ASURANSI BERSAMA",
+    "PT. ASURANSI TOTAL BERSAMA",
     "PT. ASURANSI CENTRAL ASIA",
     "PT. MANDALA ARTHA GUNA",
 ]
@@ -82,12 +81,11 @@ DAFTAR_USAGE = [
 
 DAFTAR_COVERAGE = [
     "TLO (Total Loss Only)", "Comprehensive", "All Risk",
-    "All Risk + Perluasan Banjir", "All Risk + Perluasan Gempa Bumi",
-    "All Risk + Perluasan RSCC", "All Risk + Perluasan Lengkap", "",
+    "All Risk + Perluasan Banjir", "All Risk + Perluasan Gempa Bumi", "",
 ]
 
 DAFTAR_CASE = [
-    "KEHILANGAN", "KERUSAKAN", "KERUSUHAN", "KEBAKARAN", "BANJIR", "",
+    "KEHILANGAN", "KERUSAKAN", "",
 ]
 
 PASAL_PSAKBI = [
