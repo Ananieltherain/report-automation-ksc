@@ -88,7 +88,7 @@ st.markdown("""
 </style>
 """, unsafe_allow_html=True)
 
-st.title("Laporan Hasil Survey")
+st.title("Laporan Hasil Survey V 1.2.5")
 st.caption("PT. Karya Solusi Cemerlang — Web Mobile-Friendly")
 
 # ──────────────────────────────────────────────────────────────
@@ -402,7 +402,7 @@ with tab1:
     )
     nopol = st.text_input(
         f"No. Polisi{ocr_badge('nopol')}",
-        placeholder="Contoh: BD4452WL",
+        placeholder="Contoh: A 1234 BC",
         key="nopol",
     )
 
@@ -432,7 +432,7 @@ with tab2:
 
     penyebab = st.text_input(
         "Penyebab Kejadian",
-        placeholder="Contoh: tabrakan dari arah belakang",
+        placeholder="Contoh: pencurian oleh orang tidak dikenal",
         key="penyebab",
     )
 
@@ -440,13 +440,13 @@ with tab2:
     with col6:
         dol = st.text_input(
             f"Hari / Tanggal Kejadian{ocr_badge('dol')}",
-            placeholder="Senin, 1 Januari 2024",
+            placeholder="Senin, 01 Januari 2000",
             key="dol",
         )
     with col7:
         dol_time = st.text_input(
             "Waktu Kejadian",
-            placeholder="08.30 WIB",
+            placeholder="00.00 WIB",
             key="dol_time",
         )
 
