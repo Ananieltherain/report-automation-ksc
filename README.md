@@ -1,6 +1,19 @@
-# report-automation-ksc
-Otomatisasi laporan hasil survey PT. Karya Solusi Cemerlang menggunakan streamlit, dengan sistem OCR untuk meminimalisir revisi.
+# report-automation
+Automatisasi laporan hasil survey by Kris Muliawan menggunakan streamlit.
 
+#Features
+- OCR
+- Reeplace Placeholder
+- Automatitation
 
-Demo automation:
+#Next
+- Menyempurnakan OCR
+- Menyesuaikan format dengan benar
+- menambah foto dengan in line text
+- tanda tangan otomatis
+- pasal - pasal
+
+Demo automation project:
 https://lhs-ksc.streamlit.app/
+
+### Kris Muliawan ###
